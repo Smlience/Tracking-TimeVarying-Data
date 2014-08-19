@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="MainWin">
+    <file>default.png</file>
+    <file>tf_edit.png</file>
+    <file>histogram.png</file>
+    <file>save.png</file>
+    <file>load.png</file>
+    <file>file_open.png</file>
+    <file>eraser.png</file>
+    <file>opacity_dec.png</file>
+    <file>opacity_inc.png</file>
+    <file>clear.png</file>
+    <file>fill.png</file>
+    <file>color.png</file>
+  </qresource>
+</RCC>

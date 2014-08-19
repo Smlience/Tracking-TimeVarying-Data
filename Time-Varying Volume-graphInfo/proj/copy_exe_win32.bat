@@ -1,0 +1,1 @@
+copy Win32\Debug\SciVisFw.exe SciVisFw.exe && SciVisFw.exe

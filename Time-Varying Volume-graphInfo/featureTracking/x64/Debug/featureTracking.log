@@ -1,0 +1,26 @@
+﻿生成启动时间为 2014/8/18 9:33:45。
+     1>项目“I:\project\featuretracking\Time-Varying Volume\featureTracking\featureTracking.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         I:\software\Work\vs\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt src\dm\Volume.cpp
+         Volume.cpp
+       Link:
+         I:\software\Work\vs\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"I:\project\featuretracking\Time-Varying Volume\proj\x64\Debug\\featureTracking.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\project\featuretracking\Time-Varying Volume\proj\x64\Debug\featureTracking.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\project\featuretracking\Time-Varying Volume\proj\x64\Debug\featureTracking.lib" /MACHINE:X64 x64\Debug\featuretracking.obj
+         x64\Debug\moc_featuretracking.obj
+         x64\Debug\qrc_featuretracking.obj
+         x64\Debug\main.obj
+         x64\Debug\dag.obj
+         x64\Debug\GradientCalculator.obj
+         x64\Debug\PosCalculator.obj
+         x64\Debug\Volume.obj
+         x64\Debug\func.color.obj
+         x64\Debug\func.matrix.obj
+         x64\Debug\Functions.obj
+         x64\Debug\log.obj
+         x64\Debug\observer.obj
+         x64\Debug\Quaternion.obj
+         featureTracking.vcxproj -> I:\project\featuretracking\Time-Varying Volume\proj\x64\Debug\featureTracking.exe
+     1>已完成生成项目“I:\project\featuretracking\Time-Varying Volume\featureTracking\featureTracking.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.86

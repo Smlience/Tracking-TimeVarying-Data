@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GradMagTFWidgetClass</class>
+ <widget class="QWidget" name="GradMagTFWidgetClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>549</width>
+    <height>266</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gradient Magnitude Transfer Function</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="leftMargin">
+    <number>2</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="rightMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>2</number>
+   </property>
+   <item>
+    <widget class="GradMagTFCanvas" name="canvas" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="2" margin="6"/>
+ <customwidgets>
+  <customwidget>
+   <class>GradMagTFCanvas</class>
+   <extends>QWidget</extends>
+   <header>src/package/ColorVolTF/GradMagTFCanvas.h</header>
+   <container>1</container>
+   <slots>
+    <slot>resetTF()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../../../res/mainwin.qrc"/>
+ </resources>
+ <connections/>
+</ui>

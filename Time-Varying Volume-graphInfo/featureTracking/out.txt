@@ -1,0 +1,59 @@
+feature attribute calculated!
+feature serial number :1
+mass  centroid  volume  : 1460 : 58.6349 : 16.4575 : [58.6349,16.4575,0] :11
+feature serial number :2
+mass  centroid  volume  : 4093 : 30.611 : 80.1263 : [30.611,80.1263,0.160029] :31
+feature serial number :3
+mass  centroid  volume  : 937340 : 74.3567 : 119.033 : [74.3567,119.033,30.163] :6196
+feature serial number :4
+mass  centroid  volume  : 22236 : 1.90192 : 72.6374 : [1.90192,72.6374,17.0126] :166
+feature serial number :5
+mass  centroid  volume  : 19776 : 125.239 : 76.9558 : [125.239,76.9558,16.9204] :148
+feature serial number :6
+mass  centroid  volume  : 89730 : 122.325 : 1.19762 : [122.325,1.19762,32.5633] :633
+feature serial number :7
+mass  centroid  volume  : 91200 : 120.77 : 125.879 : [120.77,125.879,30.4576] :638
+feature serial number :8
+mass  centroid  volume  : 103787 : 67.28 : 39.7421 : [67.28,39.7421,29.0369] :738
+feature serial number :9
+mass  centroid  volume  : 130030 : 35.8786 : 63.1535 : [35.8786,63.1535,34.888] :931
+feature serial number :10
+mass  centroid  volume  : 662786 : 49.8022 : 55.2494 : [49.8022,55.2494,49.6851] :4352
+feature serial number :11
+mass  centroid  volume  : 14718 : 0.811727 : 2.01678 : [0.811727,2.01678,43.2335] :108
+feature serial number :12
+mass  centroid  volume  : 936 : 0 : 127 : [0,127,39.9968] :7
+feature serial number :13
+mass  centroid  volume  : 917 : 121.571 : 20.7143 : [121.571,20.7143,43.1429] :7
+feature serial number :14
+mass  centroid  volume  : 169467 : 122.056 : 47.6094 : [122.056,47.6094,54.1175] :1155
+feature serial number :15
+mass  centroid  volume  : 31800 : 1.29487 : 45.9893 : [1.29487,45.9893,59.7188] :230
+feature serial number :16
+mass  centroid  volume  : 743752 : 45.4463 : 60.6862 : [45.4463,60.6862,83.3954] :4943
+feature serial number :17
+mass  centroid  volume  : 216097 : 30.2122 : 101.977 : [30.2122,101.977,82.8491] :1523
+feature serial number :18
+mass  centroid  volume  : 104491 : 90.1914 : 89.5224 : [90.1914,89.5224,91.6135] :766
+feature serial number :19
+mass  centroid  volume  : 4471 : 49.0002 : 12.7647 : [49.0002,12.7647,93.8812] :34
+feature serial number :20
+mass  centroid  volume  : 266813 : 64.9994 : 16.125 : [64.9994,16.125,110.934] :1772
+feature serial number :21
+mass  centroid  volume  : 10447 : 125.016 : 78.5029 : [125.016,78.5029,98.7334] :-1.#QNAN
+feature serial number :22
+mass  centroid  volume  : 307616 : 19.1513 : 81.1591 : [19.1513,81.1591,112.6] :2130
+feature serial number :23
+mass  centroid  volume  : 6879 : 75.4597 : 0.977613 : [75.4597,0.977613,104.268] :52
+feature serial number :24
+mass  centroid  volume  : 2768 : 73.9068 : 126.716 : [73.9068,126.716,104.045] :21
+feature serial number :25
+mass  centroid  volume  : 168423 : 17.582 : 3.62673 : [17.582,3.62673,106.445] :1174
+feature serial number :26
+mass  centroid  volume  : 25254 : 8.78071 : 126.438 : [8.78071,126.438,107.61] :185
+feature serial number :27
+mass  centroid  volume  : 28778 : 120.789 : 1.75158 : [120.789,1.75158,108.114] :216
+feature serial number :28
+mass  centroid  volume  : 5598 : 124.417 : 126.645 : [124.417,126.645,108.62] :42
+feature serial number :29
+mass  centroid  volume  : 334549 : 97.1651 : 94.8071 : [97.1651,94.8071,118.279] :2346

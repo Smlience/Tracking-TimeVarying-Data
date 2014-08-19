@@ -1,0 +1,40 @@
+12 [0, 17] wo are u
+
+[1, 17] wo are u
+
+[2, 15] wo are u
+
+[3, 14] wo are u
+
+[4, 14] wo are u
+
+[5, 14] wo are u
+
+[6, 12] wo are u
+
+[7, 12] wo are u
+
+[8, 12] wo are u
+
+[9, 14] wo are u
+
+[10, 18] wo are u
+
+[11, 19] wo are u
+
+
+7 [0, 21] wo are u
+
+[1, 19] wo are u
+
+[2, 17] wo are u
+
+[3, 18] wo are u
+
+[4, 20] wo are u
+
+[5, 21] wo are u
+
+[6, 19] wo are u
+
+

@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{8636e059-8b88-496e-9531-9796749df6b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{e66d5dd0-53fc-4ace-8770-5ff4a58eaf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{7ec5d8ab-69cb-42a2-860a-92992e19281e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dm">
+      <UniqueIdentifier>{fa914f22-5338-439e-81f2-6eef3b06e352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tf">
+      <UniqueIdentifier>{112ca92c-4dcc-46f2-8e2d-1a6257d1368e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tf\1dtf">
+      <UniqueIdentifier>{2f1a77fa-153f-480d-b3d8-71af0f15c112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{0fe53723-a1fe-4969-bdfe-23db359186b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{43539fd3-d9d1-45e8-8998-f8710330233b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\render">
+      <UniqueIdentifier>{15df5372-c364-4ba8-85af-4ae0c8fb0523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dm">
+      <UniqueIdentifier>{f3c19b73-14de-47af-9bd0-8f375691017e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tf">
+      <UniqueIdentifier>{9c19d795-33b4-46b9-852c-bca5353d6b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tf\1dtf">
+      <UniqueIdentifier>{0d349e0c-0ca0-4e1c-afd6-08310f9ac5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{bddaef20-12d2-4a66-a9d6-d82b8d0bb4dc}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{3aff449a-dd30-4599-8c8a-a6226cf18941}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Ext">
+      <UniqueIdentifier>{8b87565d-ec06-4239-9a5a-2aa6de2c4f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext\healpix">
+      <UniqueIdentifier>{050503c3-a26b-4aca-8d75-8a3c5537347e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{386693b6-052b-4b4e-a303-9ceed1611562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Template">
+      <UniqueIdentifier>{0d9d56f9-335f-46f9-b05e-8a412cfd7ba0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\package">
+      <UniqueIdentifier>{65223e39-a21e-4617-82b9-cb5d4b97965c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package">
+      <UniqueIdentifier>{74619cb8-a6f1-41e3-b941-be77b0e1508c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package\VarSelect">
+      <UniqueIdentifier>{aa916890-f734-4dc3-b1d2-f354b60d7460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\package\VarSelect">
+      <UniqueIdentifier>{4f7105d0-f492-48c3-b6fd-24788f887538}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\ArcBall.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Camera.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\framebufferObject.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Functions.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\observer.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Quaternion.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Shader.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\ShaderProgram.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Texture.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\ViewSphereRender.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\VolumeRender.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\CameraLink.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ui\MainWin.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ui\QGLCanvas.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dm\Volume.cpp">
+      <Filter>Source Files\dm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tf\1dtf\TF1D.cpp">
+      <Filter>Source Files\tf\1dtf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tf\1dtf\TF1DCanvas.cpp">
+      <Filter>Source Files\tf\1dtf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tf\1dtf\TF1DWidget.cpp">
+      <Filter>Source Files\tf\1dtf</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_mainwin.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QGLCanvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TF1DCanvas.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TF1DWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VolumeRender.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QGLCanvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TF1DCanvas.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TF1DWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VolumeRender.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\Healpix\chealpix.cc">
+      <Filter>Ext\healpix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\LightParameterWidget.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LightParameterWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LightParameterWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_LightParameterWidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VolumeLightingRender.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VolumeLightingRender.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_VolumeLightingRender.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\VolumeLightingRender.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dm\GradientCalculator.cpp">
+      <Filter>Source Files\dm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\func.matrix.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\func.color.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ViewSphereRender.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ViewSphereRender.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_ViewSphereRender.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HistogramPainter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HistogramPainter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_HistogramPainter.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tf\1dtf\HistogramPainter.cpp">
+      <Filter>Source Files\tf\1dtf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tf\1dtf\IntensityHistogram.cpp">
+      <Filter>Source Files\tf\1dtf</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\log.cc">
+      <Filter>Header Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScatterPlotMatrix.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScatterPlotMatrix.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_ScatterPlotMatrix.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\VarSelect\ScatterPlotMatrix.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VarSelect_MainWin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VarSelect_MainWin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_VarSelect_MainWin.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\VarSelect\VarSelect_MainWin.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScatterPlotCalc.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScatterPlotCalc.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_ScatterPlotCalc.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\VarSelect\ScatterPlotCalc.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VolumeLightingRender2DTF.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VolumeLightingRender2DTF.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_VolumeLightingRender2DTF.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScatterPlotWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScatterPlotWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_ScatterPlotWidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\VarSelect\ScatterPlotWidget.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ScatterPlot.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ScatterPlot.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_ScatterPlot.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\VarSelect\ScatterPlot.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CanvasPolygonPicker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CanvasPolygonPicker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_CanvasPolygonPicker.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\VarSelect\CanvasPolygonPicker.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CanvasBrushPicker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CanvasBrushPicker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_CanvasBrushPicker.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\VarSelect\CanvasBrushPicker.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CanvasPicker.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CanvasPicker.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_CanvasPicker.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\VarSelect\VolumeLightingRender2DTF.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_timeSelect.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_timeSelect.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_timeSelect.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\timewidget\timeSelect.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dm\PosCalculator.cpp">
+      <Filter>Source Files\dm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\package\VarSelect\EvolutionGraphWidget.cpp">
+      <Filter>Source Files\package\VarSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EvolutionGraphWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EvolutionGraphWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_EvolutionGraphWidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dm\dag.cpp">
+      <Filter>Source Files\dm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SciVisFw.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Src\ui\MainWin.h">
+      <Filter>Header Files\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Src\ui\QGLCanvas.h">
+      <Filter>Header Files\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\render\VolumeRender.h">
+      <Filter>Header Files\render</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\tf\1dtf\TF1DCanvas.h">
+      <Filter>Header Files\tf\1dtf</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\tf\1dtf\TF1DWidget.h">
+      <Filter>Header Files\tf\1dtf</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\tf\1dtf\TF1DWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\mainwin.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\ui\LightParameterWidget.h">
+      <Filter>Header Files\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\ui\LightParameterWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\render\VolumeLightingRender.h">
+      <Filter>Header Files\render</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\render\ViewSphereRender.h">
+      <Filter>Header Files\render</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\tf\1dtf\HistogramPainter.h">
+      <Filter>Header Files\tf\1dtf</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\ArcBall.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\Camera.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\CanvasObserver.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\framebufferObject.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\func.color.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\func.math.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\func.matrix.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\Functions.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\observer.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\Quaternion.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\Shader.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\ShaderData.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\ShaderProgram.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\Texture.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\util.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\Vector2.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\Vector3.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\util\Vector4.h">
+      <Filter>Header Files\util</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\ui\CameraLink.h">
+      <Filter>Header Files\ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\dm\GradientCalculator.h">
+      <Filter>Header Files\dm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\dm\VolumeMeta.h">
+      <Filter>Header Files\dm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\dm\Volume.h">
+      <Filter>Header Files\dm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\tf\1dtf\IntensityHistogram.h">
+      <Filter>Header Files\tf\1dtf</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\tf\1dtf\TF1D.h">
+      <Filter>Header Files\tf\1dtf</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_LightParameterWidget.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GeneratedFiles\ui_TF1DWidget.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ext\Healpix\chealpix.h">
+      <Filter>Ext\healpix</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shader\color_cluster_volume_raycast.frag">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shader\color_cluster_volume_raycast_tri_linear.frag">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shader\color_volume_raycast.frag">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shader\color_volume_raycast_grad_opacity_lighting.frag">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shader\color_volume_raycast_lighting.frag">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shader\raycast.frag">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shader\rayposition.frag">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shader\raycast_lighting.frag">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\ScatterPlotMatrix.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\VarSelect_MainWin.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\ScatterPlotCalc.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\VolumeLightingRender2DTF.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\ScatterPlotWidget.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\ScatterPlot.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\CanvasPolygonPicker.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\CanvasBrushPicker.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\CanvasPicker.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\timewidget\timeSelect.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\package\VarSelect\EvolutionGraphWidget.h">
+      <Filter>Header Files\package\VarSelect</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\util\log.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dm\Curvature.h">
+      <Filter>Header Files\dm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\matrix2.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\matrix3.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\matrix4.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dm\PosCalculator.h">
+      <Filter>Header Files\dm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dm\dag.h">
+      <Filter>Header Files\dm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\raycast_2DTF.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\color_volume_simple_raycast.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\color_volume_compare.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\raycast_lightling_2DTF_pos.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\raycast_lighting_2DTF2.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="shader\raycast_lighting_2DTF.frag">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\dm\数据说明.txt" />
+  </ItemGroup>
+</Project>

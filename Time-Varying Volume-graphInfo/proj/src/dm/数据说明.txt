@@ -1,0 +1,60 @@
+注意：
+特征识别和追踪的程序  需要的输入的数据有
+
+
+文件夹里
+-----#char
+|	|-Uf-45.vifo
+|
+-----#feaAttri
+|
+-----#gra
+	|-grad.vifo
+|
+-----#pos
+	|-pos.vifo
+|
+-----#raw89
+|
+-----featureNum.data
+|
+-----gragpInfomation.txt
+|
+
+1、.vifo 文件 用来识别最原始的
+
+main.cpp 里   void loadTestData(VolumeRender* render)    初始化输入文件放到
+
+pos.vifo   grad.vifo
+
+
+
+2. dag.cpp
+dag
+	dag.graphInput();
+	dag.initFeatureList();
+
+
+3.EvolutionGraphWidget::
+
+//============================
+
+每个时间步里 包含的特征值 
+//数组大小为m_timeNum+1  其中 [0] 位置存储的 为最大特征数
+void EvolutionGraphWidget::loadSequenceInfo()
+{
+	sprintf(fn, "%s", "./data/char/num.data");   //clusterCenterInfoTest3
+}
+
+3.
+生成DAG图的信息 读入
+graphInfomation.txt
+bool DAG::graphInput()
+{
+	sprintf(fn3, "%s", "I:/project/featuretracking/Time-Varying Volume/proj/data/char/graphInfomation.txt");
+}
+
+
+
+//=================注意====================
+4. DAG图的信息需要从文件读入    路径需要临时生成

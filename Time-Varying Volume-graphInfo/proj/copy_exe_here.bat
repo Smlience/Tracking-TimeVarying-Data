@@ -1,0 +1,1 @@
+copy x64\Debug\SciVisFw.exe SciVisFw.exe && SciVisFw.exe >> a.txt
