@@ -49,11 +49,6 @@
       <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
       <Extensions>ui</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
-      <Extensions>qrc;*</Extensions>
-      <ParseFiles>false</ParseFiles>
-    </Filter>
     <Filter Include="Generated Files">
       <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
       <Extensions>moc;h;cpp</Extensions>
@@ -94,6 +89,11 @@
     </Filter>
     <Filter Include="Source Files\package\VarSelect">
       <UniqueIdentifier>{4f7105d0-f492-48c3-b6fd-24788f887538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -385,6 +385,9 @@
     <ClCompile Include="src\dm\dag.cpp">
       <Filter>Source Files\dm</Filter>
     </ClCompile>
+    <ClCompile Include="feature_match.cpp">
+      <Filter>Source Files\dm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SciVisFw.rc" />
@@ -585,6 +588,9 @@
       <Filter>Header Files\dm</Filter>
     </ClInclude>
     <ClInclude Include="src\dm\dag.h">
+      <Filter>Header Files\dm</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_match.h">
       <Filter>Header Files\dm</Filter>
     </ClInclude>
   </ItemGroup>

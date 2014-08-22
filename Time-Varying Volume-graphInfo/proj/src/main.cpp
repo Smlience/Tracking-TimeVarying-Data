@@ -57,7 +57,7 @@ void loadTestData(VolumeRender* render)
 	//render->loadData("K:/Data/VolumeData/engine.vifo");
 
 	//render->loadData("data/TOOTH_8bit_128_128_160.vifo");
-	render->loadData("G:/vortex/Uf.vifo");
+	render->loadData("E:\\projects\\visual c++_projects\\vs2012\\Time-Varying Volume-graphInfo/vortex/Uf.vifo");
 	//G:\vortex
 	//render->loadData("data/char/Uf.vifo");
 

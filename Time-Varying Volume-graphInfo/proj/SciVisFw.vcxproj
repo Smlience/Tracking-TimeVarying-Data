@@ -195,6 +195,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="feature_match.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_CanvasBrushPicker.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
@@ -2483,6 +2484,7 @@
     <ResourceCompile Include="SciVisFw.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="feature_match.h" />
     <ClInclude Include="src\dm\Curvature.h" />
     <CustomBuild Include="src\package\VarSelect\ScatterPlotWidget.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>

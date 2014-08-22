@@ -57,6 +57,7 @@ void VarSelect_MainWin::setupUi()
 	//connect(timeSelect->m_sliderTime, SIGNAL(valueChanged(int)), scatterPlot, SLOT(setCurTime(int)));
 
 	connect(this->findChild<QAction*>("actionScreenshot"), SIGNAL(triggered()), pRender, SLOT(takeSnapshot()));
+	update();
 	//connect(pRender, SIGNAL(dataLoaded(const Volume*)), scatterCalc, SLOT(setVolume(const Volume*)));
 //	connect(scatterCalc, SIGNAL(samples(const QVector<QPointF> &)), scatterPlot, SLOT(setSamples(const QVector<QPointF> &)));
 	//connect(scatterCalc, SIGNAL(dataChanged(const unsigned char *, std::pair<int,int>, const unsigned char*, std::pair<int,int>, Vector3i)), scatterPlot, SLOT(setData(const unsigned char *, std::pair<int,int>, const unsigned char*, std::pair<int,int>, Vector3i)));

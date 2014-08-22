@@ -878,6 +878,7 @@ void EvolutionGraphWidget::loadSequenceInfo()
 	cin1.close();
 
 }
+
 void EvolutionGraphWidget::initMappingKey()
 {
 	for (int i=0;i<m_timeNum;i++)

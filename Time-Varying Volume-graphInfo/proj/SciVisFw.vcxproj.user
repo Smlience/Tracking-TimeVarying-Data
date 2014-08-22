@@ -17,7 +17,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <QTDIR>C:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl</QTDIR>
+    <QTDIR>E:\Qt\5.1.1\msvc2012_64_opengl</QTDIR>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerCommandArguments>
     </LocalDebuggerCommandArguments>
@@ -26,12 +26,12 @@
     <QTDIR>E:\Qt\5.1.1\msvc2012_64_opengl</QTDIR>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <QTDIR>C:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl</QTDIR>
+    <QTDIR>E:\Qt\5.1.1\msvc2012_64_opengl</QTDIR>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
     <QTDIR>E:\Qt\5.1.1\msvc2012_64_opengl</QTDIR>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'">
-    <QTDIR>C:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl</QTDIR>
+    <QTDIR>E:\Qt\5.1.1\msvc2012_64_opengl</QTDIR>
   </PropertyGroup>
 </Project>
